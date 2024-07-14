@@ -1,0 +1,88 @@
+.header {
+    box-sizing: border-box;
+    background-color: gray;
+    column-gap: 20px;
+    height: 25vh;
+    display: grid;
+
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding-bottom: 130px;
+        background-position: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        padding-bottom: 203px;
+        background-position: center;
+    }
+}
+
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo__img {
+    width: 24px;
+
+}
+
+
+.burger {
+    transition: all .5s easy-in-out;
+}
+
+// .burger::before {
+//     content: "";
+//     background-image: url('../../images/burger-menu-right-svgrepo-com.svg');
+//     background-size: cover;
+//     width: 24px;
+//     height: 24px;
+//     display: inline-block;
+// }
+
+// .burger__label {
+//     clip: rect(0 0 0 0);
+
+//     clip-path: inset(50%);
+//     white-space: nowrap;
+//     width: 1px;
+//     height: 1px;
+//     position: absolute;
+//     overflow: hidden;
+// }
+
+.burger__img {
+    width: 24px;
+}
+
+.header__title {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    color: white;
+}
+
+
+.header__subtitle {
+    color: #fff;
+    text-align: center;
+    font-family: "BM Plex Serif", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

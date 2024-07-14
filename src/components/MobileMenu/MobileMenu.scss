@@ -1,0 +1,20 @@
+.floating-menu {
+    position: fixed;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__sociale {
+    display: flex;
+}
+
+.menu__sociale-list {
+    display: flex;
+}
+
+.menu__sociale-item {
+    margin-left: 10px;
+}
