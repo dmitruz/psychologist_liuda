@@ -1,14 +1,31 @@
 .floating-menu {
     position: fixed;
+    width: 100%;
+    background-color: grey;
 }
 
 .menu-content {
     display: flex;
     flex-direction: column;
+
+    &__text {
+        font-family: "IBM Plex Serif", serif;
+        font-size: 24px;
+        font-weight: 400;
+
+    }
+
+    &__img {
+        width: 24px;
+        margin-left: 120px;
+    }
 }
+
+
 
 .menu__sociale {
     display: flex;
+    margin-top: 10px;
 }
 
 .menu__sociale-list {
