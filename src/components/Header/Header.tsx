@@ -16,7 +16,7 @@ export const Header = () => {
 
     const handleCloseMenu = () => {
         setMenuOpened(false);
-        setCurrentImage(burgerSimple);
+        setCurrentImage(burgerMenu);
     };
 
     return (

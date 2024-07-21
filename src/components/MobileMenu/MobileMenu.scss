@@ -4,6 +4,18 @@
     background-color: grey;
 }
 
+.close-menu {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.close-text {
+    font-weight: bold;
+}
+
 .menu-content {
     display: flex;
     flex-direction: column;
@@ -12,7 +24,7 @@
         font-family: "IBM Plex Serif", serif;
         font-size: 24px;
         font-weight: 400;
-
+        margin-top: 10px;
     }
 
     &__img {
@@ -32,6 +44,15 @@
     display: flex;
 }
 
-.menu__sociale-item {
+.menu__sociale-item:not(:first-child) {
     margin-left: 10px;
+}
+
+.menu__sociale-link {
+    text-decoration: none;
+}
+
+.menu__sociale-img {
+    width: 24px;
+    margin-bottom: 20px;
 }
