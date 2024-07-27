@@ -13,9 +13,8 @@ function App() {
       <Header />
       <Hero />
       <AboutMe />
-      <MyContacts />
       <MyServices />
-
+      <MyContacts />
       <ClientReviews />
     </div>
   );
