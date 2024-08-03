@@ -1,6 +1,7 @@
 import React from 'react';
 import './MyServices.scss';
 import '../../styles/CallMeButton.scss';
+import selfEsteam from '../images/self-esteam.jpg';
 
 export const MyServices = () => {
     return (
@@ -24,12 +25,15 @@ export const MyServices = () => {
                         </li>
                     </ul>
                 </div>
+
+                <img src={selfEsteam} className="self-img" alt="self" />
                 <div className="call-me">
                     <button className="call-me__btn">
                         <span className="call-me__text">
-                            Зв'яжіться зі мною
+                            Зв'язок зі мною
                         </span>
                     </button>
+
                 </div>
             </div>
         </section>
