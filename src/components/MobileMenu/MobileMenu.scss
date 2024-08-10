@@ -29,7 +29,7 @@
 
     &__img {
         width: 24px;
-        margin-left: 120px;
+        margin: 10px 0 0 84px;
     }
 }
 
@@ -55,4 +55,11 @@
 .menu__sociale-img {
     width: 24px;
     margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.menu__sociale-link:hover .menu__sociale-img,
+.menu__sociale-link:focus .menu__sociale-img {
+    transform: scale(1.2);
+
 }

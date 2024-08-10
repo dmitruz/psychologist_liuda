@@ -24,32 +24,32 @@ export const MobileMenu = ({ handleCloseMenu }: { handleCloseMenu: () => void })
                 <div className="menu__sociale">
                     <ul className="menu__sociale-list">
                         <li className="menu__sociale-item">
-                            <a href="www.facebook.com" className="menu__sociale-link">
+                            <a href="www.facebook.com" className="menu__sociale-link" target="_blank" rel="noreferrer">
                                 <img src={faceBook} alt="facebook" className="menu__sociale-img" />
                             </a>
                         </li>
                         <li className="menu__sociale-item">
-                            <a href="www.facebook.com" className="menu__sociale-link">
+                            <a href="www.facebook.com" className="menu__sociale-link" target="_blank" rel="noreferrer">
                                 <img src={instaGram} alt="facebook" className="menu__sociale-img" />
                             </a>
                         </li>
                         <li className="menu__sociale-item">
-                            <a href="https://t.me/bassliudmyla" className="menu__sociale-link">
+                            <a href="https://t.me/bassliudmyla" className="menu__sociale-link" target="_blank" rel="noreferrer">
                                 <img src={teleGram} alt="facebook" className="menu__sociale-img" />
                             </a>
                         </li>
                         <li className="menu__sociale-item">
-                            <a href="https://wa.me/380986268243" className="menu__sociale-link">
+                            <a href="https://wa.me/380986268243" className="menu__sociale-link" target="_blank" rel="noreferrer">
                                 <img src={watsApp} alt="facebook" className="menu__sociale-img" />
                             </a>
                         </li>
                         <li className="menu__sociale-item">
-                            <a href="www.facebook.com" className="menu__sociale-link">
+                            <a href="www.facebook.com" className="menu__sociale-link" target="_blank" rel="noreferrer">
                                 <img src={linkedIn} alt="facebook" className="menu__sociale-img" />
                             </a>
                         </li>
                         <li className="menu__sociale-item">
-                            <a href="mailto:ludochkabass@gmail.com" className="menu__sociale-link">
+                            <a href="mailto:ludochkabass@gmail.com" className="menu__sociale-link" target="_blank" rel="noreferrer">
                                 <img src={gMail} alt="facebook" className="menu__sociale-img" />
                             </a>
                         </li>
