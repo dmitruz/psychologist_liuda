@@ -9,9 +9,8 @@ export const AboutMe = () => {
             </h2>
             <div className="about-me__content">
                 <p className="about-me__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Мене звати Людмила. Я психолог,  арт-терапевт, та казкотерапевт.
+                    Закінчила магістратуру на кафедрі психології та психотерапії, та маю понад 8 років безперевного досвіду роботи.
                 </p>
             </div>
         </section>

@@ -1,12 +1,16 @@
 .my-services {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #eda7a7;
 
     &__container {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 20px 20px 0 20px;
+
     }
 
     &__title {
@@ -17,35 +21,50 @@
         margin-top: 1rem;
     }
 
-    &__box {
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px;
-    }
-
     &__subtitle {
         font-family: "IBM Plex Serif", serif;
         font-size: 24px;
         font-weight: 400;
         color: white;
-        margin-top: 1rem;
+        margin: 10px 0 0 10px;
     }
 
-    &__text {
+    &__list {
+        display: flex;
+        flex-direction: column;
         font-family: "IBM Plex Serif", serif;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 400;
         color: white;
         list-style: disc;
         margin: 10px 0 0 10px;
     }
 
-    &__item {
-        margin-top: 10px;
-    }
-}
+    &__text {
+        margin: 10px 0 0 10px;
 
-.self-img {
-    display: flex;
-    margin-top: 20px;
+    }
+
+    .self-img {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .request-service {
+        display: flex;
+        flex-direction: column;
+
+        &__text {
+            font-family: "IBM Plex Serif", serif;
+            font-size: 24px;
+            font-weight: 400;
+            color: white;
+            list-style: circle;
+            margin: 10px 0 0 10px;
+        }
+
+        &__item {
+            margin-top: 10px;
+        }
+    }
 }
