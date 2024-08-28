@@ -5,11 +5,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #eda7a7;
+    background-color: #deafaf;
 
     &__container {
         display: flex;
         flex-direction: column;
+        background-color: #f7c2c2;
+        border-radius: 40px;
+        margin-top: 20px;
+        padding: 10px;
 
     }
 
@@ -17,7 +21,7 @@
         font-family: "IBM Plex Serif", serif;
         font-size: 36px;
         font-weight: 600;
-        color: white;
+        color: #504e4e;
         margin-top: 1rem;
     }
 
@@ -25,7 +29,7 @@
         font-family: "IBM Plex Serif", serif;
         font-size: 24px;
         font-weight: 400;
-        color: white;
+        color: #504e4e;
         margin: 10px 0 0 10px;
     }
 
@@ -35,7 +39,7 @@
         font-family: "IBM Plex Serif", serif;
         font-size: 18px;
         font-weight: 400;
-        color: white;
+        color: #504e4e;
         list-style: disc;
         margin: 10px 0 0 10px;
     }
@@ -53,18 +57,65 @@
     .request-service {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin: 20px 0 0 20px;
+        padding: 10px;
 
         &__text {
             font-family: "IBM Plex Serif", serif;
-            font-size: 24px;
+            font-size: 18px;
             font-weight: 400;
-            color: white;
+            color: #504e4e;
             list-style: circle;
-            margin: 10px 0 0 10px;
+            margin-top: 10px;
+
         }
 
         &__item {
             margin-top: 10px;
+
         }
     }
+}
+
+.kids-service {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #adb0a1;
+
+    &__subtitle {
+        font-family: "IBM Plex Serif", serif;
+        font-size: 24px;
+        font-weight: 400;
+        color: #504e4e;
+        margin: 10px 0 0 10px;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    &__text {
+        font-family: "IBM Plex Serif", serif;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #504e4e;
+        list-style: circle;
+        margin: 10px 0 0 10px;
+    }
+
+    &__item {
+        margin-top: 20px;
+    }
+}
+
+.family-img {
+    width: 480px;
 }

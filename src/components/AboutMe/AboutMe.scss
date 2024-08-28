@@ -12,18 +12,21 @@
         font-size: 36px;
         font-weight: 700;
         color: white;
-        margin-bottom: 1rem;
+        margin: 20px 0 20px 0
     }
 
     &__content {
         display: flex;
+        flex-wrap: nowrap;
+        padding: 10px;
     }
 
     &__text {
         font-family: "IBM Plex Serif", serif;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 400;
-        color: white;
-        margin: 0 0 0 10px;
+        color: #fff;
+        box-sizing: border-box;
+        line-height: 1.2;
     }
 }
