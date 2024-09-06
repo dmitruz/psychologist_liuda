@@ -6,11 +6,12 @@ import watsApp from '../images/whatsapp-whats-app.svg';
 import linkedIn from '../images/linkedin-round.svg';
 import gMail from '../images/gmail.svg';
 import '../MobileMenu/MobileMenu.scss';
+import './MyContacts.scss';
 import downArrow from '../images/down-arrow-multimedia-option.svg';
 
 export const MyContacts = () => {
     return (
-        <>
+        <section id="contacts" className="my-contacts">
             <p className="menu-content__text">Зв'язок зі мною
             </p>
             <img src={downArrow} alt="downArrow" className="menu-content__img" />
@@ -48,7 +49,7 @@ export const MyContacts = () => {
                     </li>
                 </ul>
             </div>
-        </>
+        </section>
     )
 }
 

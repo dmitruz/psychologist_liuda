@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { ContactForm } from '../ContactForm/ContactForm';
 import './MyServices.scss';
 import '../../styles/CallMeButton.scss';
+import './ModalOverlay.scss';
 import selfEsteam from '../images/self-esteam.jpg';
 import familyKid from '../images/family.png';
 
 export const MyServices = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+
+    const handleOpenModal = () => {
+        setIsModalOpen(true);
+    };
+
+    const handleCloseModal = () => {
+        setIsModalOpen(false);
+    };
+
     return (
-        <section className="my-services">
+        <section id="my-services" className="my-services">
             <h2 className="my-services__title">Мої послуги</h2>
             <div className="my-services__container">
                 <p className="my-services__subtitle">Клієнтам:</p>
@@ -41,7 +54,7 @@ export const MyServices = () => {
                     </li>
                 </ul>
                 <div className="call-me">
-                    <button className="call-me__btn">
+                    <button className="call-me__btn" onClick={handleOpenModal}>
                         <span className="call-me__text">
                             Зв'язок зі мною
                         </span>
@@ -74,13 +87,21 @@ export const MyServices = () => {
                 </div>
                 <img src={familyKid} className="family-img" alt="family" />
                 <div className="call-me">
-                    <button className="call-me__btn">
+                    <button className="call-me__btn" onClick={handleOpenModal}>
                         <span className="call-me__text">
                             Зв'язок зі мною
                         </span>
                     </button>
                 </div>
             </section>
+
+            {isModalOpen && (
+                <div className="modal-overlay">
+                    <div className="modal-content">
+                        <ContactForm handleCloseMenu={handleCloseModal} />
+                    </div>
+                </div>
+            )}
 
         </section>
     )

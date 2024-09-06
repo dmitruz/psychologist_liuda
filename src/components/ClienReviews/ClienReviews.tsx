@@ -1,7 +1,12 @@
+
+import './ClientReviews.scss';
+
 export const ClientReviews = () => {
     return (
-        <div>
-            Hero
-        </div>
+        <section id="reviews" className="client-reviews">
+            <div>
+                <h2>Client reviews</h2>
+            </div>
+        </section>
     )
 }
