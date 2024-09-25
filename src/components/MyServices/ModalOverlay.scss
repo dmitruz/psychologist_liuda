@@ -30,3 +30,10 @@
     top: 33%;
     right: 10%;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contact-form .close-menu {
+        top: 31%;
+        right: 20%;
+    }
+}

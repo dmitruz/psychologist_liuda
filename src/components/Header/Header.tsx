@@ -21,15 +21,22 @@ export const Header = () => {
 
     return (
         <header className="header" id="home">
+            <a href="home" className="logo">
+                <img src={logo} alt="logoImg" className="logo__img" />
+            </a>
             <nav className="header__navigation">
-                <a href="home" className="logo">
-                    <img src={logo} alt="logoImg" className="logo__img" />
-                </a>
 
                 <a href="#menu" className="burger" onClick={handleImageClick}>
                     <img src={currentImage} alt="burgerMenu" className="burger__img" />
 
                 </a>
+
+                <div className="menu-content">
+                    <a href="#about-me" className="menu-content__text">Про Мене</a>
+                    <a href="#my-services" className="menu-content__text">Послуги та ціни</a>
+                    <a href="#reviews" className="menu-content__text">Відгуки</a>
+                    <a href="#contacts" className="menu-content__text">Контакти</a>
+                </div>
             </nav>
             <div className="header__content">
                 <h1 className="header__title">Психологиня</h1>

@@ -21,42 +21,66 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .header__navigation .menu-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 40px;
+        /* For horizontal layout on desktop */
+    }
 
-.header__navigation {
-    display: flex;
-    justify-content: space-between;
+    .header__navigation .menu-content__text {
+        font-size: 16px;
+        /* Adjust font size for desktop */
+        font-weight: 700;
+        margin: 0 15px;
+        /* Adjust margins for horizontal layout */
+    }
+
+    .header__navigation .menu-content__img {
+        margin: 0 10px;
+        /* Adjust margins for desktop */
+    }
 }
 
+.burger {
+    transition: all 0.5s ease-in-out;
+    display: block;
+}
+
+@media (min-width: 1024px) {
+    .burger {
+        display: none;
+        /* Hide burger on larger screens */
+    }
+}
+
+.menu-content {
+    display: none;
+    /* Hide by default on mobile */
+}
+
+.menu-content__text {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+    .menu-content {
+        display: flex;
+    }
+}
 
 .logo__img {
     width: 24px;
 
 }
 
-
-.burger {
-    transition: all .5s easy-in-out;
-}
-
-// .burger::before {
-//     content: "";
-//     background-image: url('../../images/burger-menu-right-svgrepo-com.svg');
-//     background-size: cover;
-//     width: 24px;
-//     height: 24px;
-//     display: inline-block;
-// }
-
-// .burger__label {
-//     clip: rect(0 0 0 0);
-
-//     clip-path: inset(50%);
-//     white-space: nowrap;
-//     width: 1px;
-//     height: 1px;
-//     position: absolute;
-//     overflow: hidden;
-// }
 
 .burger__img {
     width: 24px;
