@@ -7,6 +7,16 @@
 
 }
 
+.logo__container {
+    display: block;
+}
+
+@media (min-width: 480px) {
+    .logo__container {
+        display: none;
+    }
+}
+
 @media (min-width: 768px) {
     .header {
         padding-bottom: 130px;
@@ -21,8 +31,12 @@
     }
 }
 
+.header__navigation {
+    display: flex;
+}
+
 @media (min-width: 1024px) {
-    .header__navigation .menu-content {
+    .header__navigation {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -30,7 +44,7 @@
         /* For horizontal layout on desktop */
     }
 
-    .header__navigation .menu-content__text {
+    .header__navigation {
         font-size: 16px;
         /* Adjust font size for desktop */
         font-weight: 700;
@@ -38,9 +52,15 @@
         /* Adjust margins for horizontal layout */
     }
 
-    .header__navigation .menu-content__img {
+    .header__navigation {
         margin: 0 10px;
         /* Adjust margins for desktop */
+    }
+}
+
+@media (min-width: 768px) {
+    .header__content {
+        margin-top: 40px;
     }
 }
 
@@ -56,25 +76,12 @@
     }
 }
 
-.menu-content {
-    display: none;
-    /* Hide by default on mobile */
-}
-
-.menu-content__text {
-    font-family: "IBM Plex Serif", serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: white;
-    margin-left: 20px;
-    text-decoration: none;
-}
-
-@media (min-width: 1024px) {
-    .menu-content {
-        display: flex;
+@media (min-width: 768px) {
+    .burger {
+        display: none;
     }
 }
+
 
 .logo__img {
     width: 24px;
@@ -85,6 +92,8 @@
 .burger__img {
     width: 24px;
 }
+
+
 
 .header__title {
     font-family: "IBM Plex Serif", serif;

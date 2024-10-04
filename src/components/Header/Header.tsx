@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Header.scss';
+import '../MobileMenu/MobileMenu.scss';
 import logo from '../images/phone-call.svg';
 import burgerMenu from '../images/burger-simple.svg';
 import burgerSimple from '../images/burger-menu-right-svgrepo-com.svg';
@@ -21,9 +22,11 @@ export const Header = () => {
 
     return (
         <header className="header" id="home">
-            <a href="home" className="logo">
-                <img src={logo} alt="logoImg" className="logo__img" />
-            </a>
+            <div className="logo__container">
+                <a href="home" className="logo">
+                    <img src={logo} alt="logoImg" className="logo__img" />
+                </a>
+            </div>
             <nav className="header__navigation">
 
                 <a href="#menu" className="burger" onClick={handleImageClick}>

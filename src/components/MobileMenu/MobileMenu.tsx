@@ -1,3 +1,4 @@
+
 import './MobileMenu.scss';
 import downArrow from '../images/down-arrow-multimedia-option.svg';
 import faceBook from '../images/facebook-round.svg';
@@ -9,12 +10,13 @@ import gMail from '../images/gmail.svg';
 
 
 export const MobileMenu = ({ handleCloseMenu }: { handleCloseMenu: () => void }) => {
+
     return (
         <div className="floating-menu">
             <button className="close-menu" onClick={handleCloseMenu}>
                 <h2 className="close-text">X</h2>
             </button>
-            <div className="menu-content">
+            <div className="menu-opened">
                 <a href="#about-me" className="menu-content__text">Про Мене</a>
                 <a href="#my-services" className="menu-content__text">Послуги та ціни</a>
                 <a href="#reviews" className="menu-content__text">Відгуки</a>

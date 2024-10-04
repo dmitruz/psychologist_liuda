@@ -11,8 +11,8 @@
     border: none;
     cursor: pointer;
     position: absolute;
-    right: 20%;
-    top: 50%;
+    right: 35%;
+    top: 5%;
 
 }
 
@@ -37,6 +37,57 @@
     }
 }
 
+.close-menu {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.menu-content {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    flex-direction: column;
+
+}
+
+.menu-content.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-opened {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .menu-content {
+        display: flex;
+        flex-direction: row;
+
+        &__text {
+            padding-left: 24px;
+        }
+    }
+}
+
+.menu-content__text {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+    .menu-content {
+        display: flex;
+    }
+}
 
 
 .menu__sociale {
