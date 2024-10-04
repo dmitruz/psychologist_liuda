@@ -1,8 +1,34 @@
 .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
     box-sizing: border-box;
     background-color: gray;
-    column-gap: 20px;
-    height: 100vh;
-    display: grid;
-    background-image: url(../images/liuda.jpg);
+
+
+    /* Default background image for desktop */
+    background-image: url('../images/heroDesktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* Ensures it covers the whole area */
+
+    /* Media Query for Tablets */
+    @media (max-width: 1024px) {
+        background-image: url('../images/heroTablet.jpg');
+        background-size: contain;
+        /* Adjust as needed to fit design */
+    }
+
+    /* Media Query for Mobile */
+    @media (max-width: 768px) {
+        background-image: url('../images/heroMobile.jpg');
+        background-size: cover;
+        /* Ensures it fits the whole page */
+        height: 100vh;
+        /* Fits mobile page height */
+    }
 }
