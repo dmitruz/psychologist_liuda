@@ -17,10 +17,24 @@ export const MobileMenu = ({ handleCloseMenu }: { handleCloseMenu: () => void })
                 <h2 className="close-text">X</h2>
             </button>
             <div className="menu-opened">
-                <a href="#about-me" className="menu-content__text">Про Мене</a>
-                <a href="#my-services" className="menu-content__text">Послуги та ціни</a>
-                <a href="#reviews" className="menu-content__text">Відгуки</a>
-                <a href="#contacts" className="menu-content__text">Контакти</a>
+                <ul className="mobile__list">
+                    <li className="mobile__list-item">
+                        <a href="#about-me" className="mobile__text">Про Менe
+                        </a>
+                    </li>
+                    <li className="mobile__list-item">
+                        <a href="#my-services" className="mobile__text">Послуги та ціни
+                        </a>
+                    </li>
+                    <li className="mobile__list-item">
+                        <a href="#reviews" className="menu-content__text">Відгуки
+                        </a>
+                    </li>
+                    <li className="mobile__list-item">
+                        <a href="#contacts" className="menu-content__text">Контакти
+                        </a>
+                    </li>
+                </ul>
                 <img src={downArrow} alt="downArrow" className="menu-content__img" />
                 <div className="menu__sociale">
                     <ul className="menu__sociale-list">

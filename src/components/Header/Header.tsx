@@ -35,10 +35,24 @@ export const Header = () => {
                 </a>
 
                 <div className="menu-content">
-                    <a href="#about-me" className="menu-content__text">Про Мене</a>
-                    <a href="#my-services" className="menu-content__text">Послуги та ціни</a>
-                    <a href="#reviews" className="menu-content__text">Відгуки</a>
-                    <a href="#contacts" className="menu-content__text">Контакти</a>
+                    <ul className="mobile__list">
+                        <li className="mobile__list-item">
+                            <a href="#about-me" className="mobile__text">Про Менe
+                            </a>
+                        </li>
+                        <li className="mobile__list-item">
+                            <a href="#my-services" className="mobile__text">Послуги та ціни
+                            </a>
+                        </li>
+                        <li className="mobile__list-item">
+                            <a href="#reviews" className="mobile__text">Відгуки
+                            </a>
+                        </li>
+                        <li className="mobile__list-item">
+                            <a href="#contacts" className="mobile__text">Контакти
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
             <div className="header__content">
