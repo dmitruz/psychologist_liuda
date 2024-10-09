@@ -75,140 +75,123 @@ export const MyServices = () => {
                         Підліткова криза — це складний період у житті кожної молодої людини, коли відбуваються значні психологічні, фізичні та соціальні зміни. Цей етап характеризується пошуком власної ідентичності, незалежності від батьків, а також формуванням цінностей і світогляду. Підлітки стикаються з викликами, такими як тиск однолітків, потреба відповідати очікуванням суспільства та швидкі зміни у власному тілі й свідомості. Це може викликати роздратування, агресію, замкнутість, або навпаки — надмірну соціальну активність.
                     </span>
                 </div>
-                <img src={familyKid} className="family-img" alt="family" />
-                <div className="call-me">
-                    <button className="call-me__btn" onClick={handleOpenModal}>
-                        <span className="call-me__text">
-                            Зв'язок зі мною
-                        </span>
-                    </button>
-                </div>
-                <div className="kids-service__container">
-                    <ul className="kids-service__text">
-                        <li className="kids-service__item">
-                            Вікові особливості: криза школяра молодше 6 років, підліткова криза
-                        </li>
-                        <li className="kids-service__item">
-                            Погіршення успішності у школі
-                        </li>
-                        <li className="kids-service__item">
-                            Втрата інтересу до спілкування
-                        </li>
-                        <li className="kids-service__item">
-                            Замкнутість та підозрілість, втрата контакту з дорослими
-                        </li>
-                        <li className="kids-service__item">
-                            Залежність від гаджетів та соціальних мереж
-                        </li>
-                    </ul>
-                </div>
-                <img src={familyKid} className="family-img" alt="family" />
-                <div className="call-me">
-                    <button className="call-me__btn" onClick={handleOpenModal}>
-                        <span className="call-me__text">
-                            Зв'язок зі мною
-                        </span>
-                    </button>
-                </div>
-                <div className="kids-service__container">
-                    <ul className="kids-service__text">
-                        <li className="kids-service__item">
-                            Вікові особливості: криза школяра молодше 6 років, підліткова криза
-                        </li>
-                        <li className="kids-service__item">
-                            Погіршення успішності у школі
-                        </li>
-                        <li className="kids-service__item">
-                            Втрата інтересу до спілкування
-                        </li>
-                        <li className="kids-service__item">
-                            Замкнутість та підозрілість, втрата контакту з дорослими
-                        </li>
-                        <li className="kids-service__item">
-                            Залежність від гаджетів та соціальних мереж
-                        </li>
-                    </ul>
-                </div>
-                <img src={familyKid} className="family-img" alt="family" />
-                <div className="call-me">
-                    <button className="call-me__btn" onClick={handleOpenModal}>
-                        <span className="call-me__text">
-                            Зв'язок зі мною
-                        </span>
-                    </button>
-                </div>
-                <div className="kids-service__container">
-                    <p className="kids-service__text">
-                        Вікові особливості: <br />
-                        Криза школяра молодше 6 років, підліткова криза
-                    </p>
-                    <span className="kids-service__description">
-                        Підліткова криза — це складний період у житті кожної молодої людини, коли відбуваються значні психологічні, фізичні та соціальні зміни. Цей етап характеризується пошуком власної ідентичності, незалежності від батьків, а також формуванням цінностей і світогляду. Підлітки стикаються з викликами, такими як тиск однолітків, потреба відповідати очікуванням суспільства та швидкі зміни у власному тілі й свідомості. Це може викликати роздратування, агресію, замкнутість, або навпаки — надмірну соціальну активність.
-                    </span>
-                </div>
-                <img src={familyKid} className="family-img" alt="family" />
-                <div className="call-me">
-                    <button className="call-me__btn" onClick={handleOpenModal}>
-                        <span className="call-me__text">
-                            Зв'язок зі мною
-                        </span>
-                    </button>
-                </div>
-                <div className="kids-service__container">
-                    <ul className="kids-service__text">
-                        <li className="kids-service__item">
-                            Вікові особливості: криза школяра молодше 6 років, підліткова криза
-                        </li>
-                        <li className="kids-service__item">
-                            Погіршення успішності у школі
-                        </li>
-                        <li className="kids-service__item">
-                            Втрата інтересу до спілкування
-                        </li>
-                        <li className="kids-service__item">
-                            Замкнутість та підозрілість, втрата контакту з дорослими
-                        </li>
-                        <li className="kids-service__item">
-                            Залежність від гаджетів та соціальних мереж
-                        </li>
-                    </ul>
-                </div>
-                <img src={familyKid} className="family-img" alt="family" />
-                <div className="call-me">
-                    <button className="call-me__btn" onClick={handleOpenModal}>
-                        <span className="call-me__text">
-                            Зв'язок зі мною
-                        </span>
-                    </button>
-                </div>
-                <div className="kids-service__container">
-                    <ul className="kids-service__text">
-                        <li className="kids-service__item">
-                            Вікові особливості: криза школяра молодше 6 років, підліткова криза
-                        </li>
-                        <li className="kids-service__item">
-                            Погіршення успішності у школі
-                        </li>
-                        <li className="kids-service__item">
-                            Втрата інтересу до спілкування
-                        </li>
-                        <li className="kids-service__item">
-                            Замкнутість та підозрілість, втрата контакту з дорослими
-                        </li>
-                        <li className="kids-service__item">
-                            Залежність від гаджетів та соціальних мереж
-                        </li>
-                    </ul>
-                </div>
-                <img src={familyKid} className="family-img" alt="family" />
-                <div className="call-me">
-                    <button className="call-me__btn" onClick={handleOpenModal}>
-                        <span className="call-me__text">
-                            Зв'язок зі мною
-                        </span>
-                    </button>
-                </div>
+                <div className="kids-service__wrapper">
+                    <div className="kids-service__block">
+                        <img src={familyKid} className="family-img" alt="family" />
 
+                        <ul className="kids-service__text">
+                            <li className="kids-service__item">
+                                Вікові особливості: криза школяра молодше 6 років, підліткова криза
+                            </li>
+                            <li className="kids-service__item">
+                                Погіршення успішності у школі
+                            </li>
+                            <li className="kids-service__item">
+                                Втрата інтересу до спілкування
+                            </li>
+                            <li className="kids-service__item">
+                                Замкнутість та підозрілість, втрата контакту з дорослими
+                            </li>
+                            <li className="kids-service__item">
+                                Залежність від гаджетів та соціальних мереж
+                            </li>
+                        </ul>
+                        <div className="call-me">
+                            <button className="call-me__btn" onClick={handleOpenModal}>
+                                <span className="call-me__text">
+                                    Зв'язок зі мною
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div className="kids-service__block">
+                        <img src={familyKid} className="family-img" alt="family" />
+
+                        <div className="kids-service__container">
+                            <ul className="kids-service__text">
+                                <li className="kids-service__item">
+                                    Вікові особливості: криза школяра молодше 6 років, підліткова криза
+                                </li>
+                                <li className="kids-service__item">
+                                    Погіршення успішності у школі
+                                </li>
+                                <li className="kids-service__item">
+                                    Втрата інтересу до спілкування
+                                </li>
+                                <li className="kids-service__item">
+                                    Замкнутість та підозрілість, втрата контакту з дорослими
+                                </li>
+                                <li className="kids-service__item">
+                                    Залежність від гаджетів та соціальних мереж
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="kids-service__block">
+                        <img src={familyKid} className="family-img" alt="family" />
+
+                        <div className="kids-service__container">
+                            <p className="kids-service__text">
+                                Вікові особливості: <br />
+                                Криза школяра молодше 6 років, підліткова криза
+                            </p>
+                            <span className="kids-service__description">
+                                Підліткова криза — це складний період у житті кожної молодої людини, коли відбуваються значні психологічні, фізичні та соціальні зміни. Цей етап характеризується пошуком власної ідентичності, незалежності від батьків, а також формуванням цінностей і світогляду. Підлітки стикаються з викликами, такими як тиск однолітків, потреба відповідати очікуванням суспільства та швидкі зміни у власному тілі й свідомості. Це може викликати роздратування, агресію, замкнутість, або навпаки — надмірну соціальну активність.
+                            </span>
+                        </div>
+                        <img src={familyKid} className="family-img" alt="family" />
+
+                        <div className="kids-service__container">
+                            <ul className="kids-service__text">
+                                <li className="kids-service__item">
+                                    Вікові особливості: криза школяра молодше 6 років, підліткова криза
+                                </li>
+                                <li className="kids-service__item">
+                                    Погіршення успішності у школі
+                                </li>
+                                <li className="kids-service__item">
+                                    Втрата інтересу до спілкування
+                                </li>
+                                <li className="kids-service__item">
+                                    Замкнутість та підозрілість, втрата контакту з дорослими
+                                </li>
+                                <li className="kids-service__item">
+                                    Залежність від гаджетів та соціальних мереж
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="call-me">
+                            <button className="call-me__btn" onClick={handleOpenModal}>
+                                <span className="call-me__text">
+                                    Зв'язок зі мною
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div className="kids-service__block">
+                        <img src={familyKid} className="family-img" alt="family" />
+
+                        <div className="kids-service__container">
+                            <ul className="kids-service__text">
+                                <li className="kids-service__item">
+                                    Вікові особливості: криза школяра молодше 6 років, підліткова криза
+                                </li>
+                                <li className="kids-service__item">
+                                    Погіршення успішності у школі
+                                </li>
+                                <li className="kids-service__item">
+                                    Втрата інтересу до спілкування
+                                </li>
+                                <li className="kids-service__item">
+                                    Замкнутість та підозрілість, втрата контакту з дорослими
+                                </li>
+                                <li className="kids-service__item">
+                                    Залежність від гаджетів та соціальних мереж
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             {isModalOpen && (
