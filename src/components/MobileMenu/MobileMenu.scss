@@ -11,8 +11,8 @@
     border: none;
     cursor: pointer;
     position: absolute;
-    right: 18%;
-    top: 5%;
+    right: 1%;
+    top: 10%;
 
 }
 
@@ -30,7 +30,7 @@
 
     &__text {
         font-family: "IBM Plex Serif", serif;
-        font-size: 24px;
+        font-size: 14px;
         font-weight: 400;
         margin-top: 10px;
     }
@@ -90,9 +90,8 @@
 .mobile__text {
     font-family: "IBM Plex Serif", serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
-    margin-left: 20px;
     text-decoration: none;
 }
 

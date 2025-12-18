@@ -27,11 +27,11 @@ export const MobileMenu = ({ handleCloseMenu }: { handleCloseMenu: () => void })
                         </a>
                     </li>
                     <li className="mobile__list-item">
-                        <a href="#reviews" className="menu-content__text">Відгуки
+                        <a href="#reviews" className="mobile__text">Відгуки
                         </a>
                     </li>
                     <li className="mobile__list-item">
-                        <a href="#contacts" className="menu-content__text">Контакти
+                        <a href="#contacts" className="mobile__text">Контакти
                         </a>
                     </li>
                 </ul>
