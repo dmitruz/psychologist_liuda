@@ -22,12 +22,13 @@ export const Header = () => {
 
     return (
         <header className="header" id="home">
-            <div className="logo__container">
+
+            <nav className="header__navigation">
+
                 <a href="home" className="logo">
                     <img src={logo} alt="logoImg" className="logo__img" />
                 </a>
-            </div>
-            <nav className="header__navigation">
+
 
                 <a href="#menu" className="burger" onClick={handleImageClick}>
                     <img src={currentImage} alt="burgerMenu" className="burger__img" />

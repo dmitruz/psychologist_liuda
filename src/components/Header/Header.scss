@@ -19,6 +19,13 @@
 
 @media (min-width: 768px) {
     .logo__container {
+        display: none;
+        // width: 32px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo__container {
         display: block;
         width: 32px;
     }
@@ -34,7 +41,6 @@
 
 @media (min-width: 1024px) {
     .header {
-        padding-bottom: 203px;
         background-position: center;
     }
 }
@@ -49,6 +55,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-left: 40px;
+
         /* For horizontal layout on desktop */
     }
 
@@ -65,6 +72,10 @@
         /* Adjust margins for desktop */
     }
 }
+
+
+
+
 
 @media (min-width: 768px) {
     .header__content {
