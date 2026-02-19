@@ -6,6 +6,7 @@ import { MyServices } from './components/MyServices/MyServices';
 import { AboutMe } from './components/AboutMe/AboutMe';
 import { ClientReviews } from './components/ClienReviews/ClienReviews';
 import './styles/globalStyles.scss';
+import BookingCalendar from './components/BookingCalendar/BookingCalendar';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <AboutMe />
       <MyServices />
+      <BookingCalendar />
       <ClientReviews />
       <MyContacts />
 
