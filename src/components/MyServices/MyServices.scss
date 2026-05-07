@@ -37,7 +37,7 @@
         font-size: 24px;
         font-weight: 400;
         color: #504e4e;
-        margin: 10px 0 0 10px;
+        margin: 10px 0 0 40px;
     }
 
     &__list {
@@ -59,6 +59,8 @@
     .self-img {
         display: flex;
         margin: 20px 0 20px 0;
+        border: 1px solid black;
+        border-radius: 25%;
     }
 
     .request-service {
@@ -147,6 +149,12 @@
 
 .family-img {
     width: 480px;
+}
+
+.service-image {
+    width: 490px;
+    border: 1px solid black;
+    border-radius: 25%;
 }
 
 .image-container {

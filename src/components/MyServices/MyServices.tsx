@@ -40,14 +40,14 @@ export const MyServices = () => {
                     </ul>
                 </div>
                 <div className="image-container">
-                    <img src={consultation} style={{ width: 490 }} alt="self" />
+                    <img src={consultation} className="service-image" alt="self" />
                 </div>
             </div>
             <div className="request-service">
                 <p className="my-services__subtitle">Запити:</p>
                 <ul className="request-service__text">
                     <li className="request-service__item">
-                        Адаптація у новій країні
+                        Адаптація у новій країні [bhbvhvhvhv hvhvhvhvh hvhvhvhvhvhvh vvhvhvhvhv]
                     </li>
                     <li className="request-service__item">
                         Пошук себе та професiй
